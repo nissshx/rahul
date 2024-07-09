@@ -9,3 +9,4 @@ export const noto = localFont({
         
     ],
 }); 
+export default noto

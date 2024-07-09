@@ -2,12 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: 'default';
-  src: url('./noto.ttf');
-}
-*{
-  font-family: 'default';
-  letter-spacing: -0.975px;
-  color: #272727;
-}
