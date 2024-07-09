@@ -45,15 +45,15 @@ const Sidebar = () => {
       <div className={`overflow-y-auto transition-all duration-300 ${isOpen ? 'max-h-[calc(100vh-250px)]' : 'max-h-0'}`}>
         {menuItems.map((item, index) => (
           <div key={index} className="flex items-center space-x-2 p-2 hover:bg-gray-100 rounded">
-            {item.icon}
+           <span className='text-orange-700'>{item.icon}</span> 
             <span>{item.name}</span>
           </div>
         ))}
       </div>
 
       <div className="mt-auto">
-        <div className="flex items-center space-x-2 p-2">
-          <FaWhatsapp />
+        <div className="flex  items-center space-x-2 p-2">
+          <FaWhatsapp className='text-green-500' />
           <span>Support</span>
         </div>
         <p className="text-xs text-gray-500 mt-2">Demo Prototype developed by Nishant Kumar</p>
